@@ -1,0 +1,36 @@
+#Desenvolvido e Programado Por Vinícius Gabriel Menezes Da Silva     "AIKON"
+#Para Contato:   +55(15)99736-1188
+
+from random import choice
+import string
+from colorama import Fore,Back,Style
+import time
+tamanho_da_senha = int(input("oi  tudo bem?   poderia  por gentileza me informar quantos numeros deseja ter em sua senha ?      "))
+time.sleep(3)
+caracteres = string.ascii_letters + string.digits + string.punctuation
+senha_segura = ''
+for i in range(tamanho_da_senha):
+  senha_segura += choice(caracteres)
+
+
+print(Fore.LIGHTMAGENTA_EX+"                                                                                                                                      A senha gerada foi  : ",senha_segura)
+time.sleep(2)
+
+
+
+print (Fore.LIGHTYELLOW_EX+"Tchau  Até  Mais")
+time.sleep(5)
+
+
+print(Fore.LIGHTMAGENTA_EX+"""
+coded by:                            
+●●●                  
+●  ●                 
+●   ●              
+●    ●            
+●AIKON●               
+●      ●        
+●       ●        
+●        ●
+VINÍCIUS  GABRIEL          
+ """)
